@@ -57,19 +57,25 @@
       </header>
     
     <!-- Navbar - end -->
+     
+    <div class="form-balnk"></div>
 
     <!-- login - start -->
 
     <section class="login">
-      <div class="banner-overlay"></div>
       <div class="login-bg">
         <img src="../Assets/Images/Image_files/login-bg.jpg" alt="background-image">
+        <div class="banner-overlay"></div>
       </div>
-      <form action="" class="login-form m-auto">
-        <label for="username" class="mx-auto">Username</label>
-        <input type="text" placeholder="sunny123" name="username" id="username" class="mx-auto">
-        <label for="password" class="mx-auto">Password</label>
-        <input type="password" name="password" id="password" class="mx-auto">
+      <form action="" class="login-form m-auto py-5">
+        <div class="form-group">
+          <label for="username" class="mx-auto text-white">Username: </label>
+          <input class="px-4" type="text" placeholder="sunny123" name="username" id="username" class="mx-auto">
+        </div>
+        <div class="form-group">
+          <label for="password" class="mx-auto text-white">Password: </label>
+          <input class="px-4" type="password" name="password" id="password" class="mx-auto">
+        </div>
         <button type="submit" class="mx-auto">Login</button>
       </form>
     </section>
